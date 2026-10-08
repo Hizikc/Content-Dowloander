@@ -1,4 +1,4 @@
 # YouTube-Dowloander
 
-## CLI-Script для загрузки видосов с YouTube
+## CLI-Script для загрузки видео с YouTube
 ### 
