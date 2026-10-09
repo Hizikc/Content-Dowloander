@@ -42,7 +42,7 @@ def main():
         if choise == '1':
             dowloander()
         elif choise == '2':
-            s()
+            settings.settings()
         elif choise == '0':
             os.system('cls')
             break
