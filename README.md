@@ -1,4 +1,4 @@
 # Content-Dowloander
 
-## CLI-Script для загрузки Контента
+## CLI-Script для загрузки контента
 ### 
