@@ -1,6 +1,7 @@
 import sys
 import os 
 import main
+import config
 
 def settings():
     while True:
