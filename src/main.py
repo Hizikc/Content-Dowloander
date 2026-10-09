@@ -1,7 +1,7 @@
 import sys
 import os
 import dowloander
-import src.about as about
+import about
 import config
 
 # Функция главного меню
