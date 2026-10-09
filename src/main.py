@@ -23,6 +23,7 @@ def main():
             settings.settings()
         elif choise == '0':
             os.system('cls')
+            sys.exit()
             break
         
 if __name__ == '__main__':
