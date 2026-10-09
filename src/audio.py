@@ -14,7 +14,7 @@ def audio():
         ao = input(': ')
         
         if ao == '1':
-            audio_standart.audois()
+            audio_standart.audio_standart()
         elif ao == '2':
             print(':')
         elif ao == '0':
