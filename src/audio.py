@@ -1,6 +1,7 @@
 import os
 import main
 import config
+import audio_standart
 
 def audio():
     while True:
@@ -13,7 +14,7 @@ def audio():
         ao = input(': ')
         
         if ao == '1':
-            print(':')
+            audio_standart.audois()
         elif ao == '2':
             print(':')
         elif ao == '0':
