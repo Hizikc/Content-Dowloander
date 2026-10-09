@@ -2,6 +2,7 @@ import os
 import main
 import config
 import audio_standart
+import audio_not_standart
 
 def audio():
     while True:
@@ -16,7 +17,7 @@ def audio():
         if ao == '1':
             audio_standart.audio_standart()
         elif ao == '2':
-            print(':')
+            audio_not_standart.audio_not_standart()
         elif ao == '0':
             os.system('cls')
             main.main()
