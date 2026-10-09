@@ -1,9 +1,13 @@
 import sys
 import os
 
+
+# Функция главного меню
 def main():
     while True:
+        # Очистка терминала перед выводом меню
         os.system('cls')
+        # Меню
         print('YouTube-Dowloander')
         print('1. Загрузка')
         print('2. Настройка')
