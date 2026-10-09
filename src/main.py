@@ -1,7 +1,7 @@
 import sys
 import os
 import dowloander
-import settings
+import src.about as about
 import config
 
 # Функция главного меню
@@ -20,7 +20,7 @@ def main():
         if choise == '1':
             dowloander.dowloander()
         elif choise == '2':
-            settings.settings()
+            about.about()
         elif choise == '0':
             os.system('cls')
             sys.exit()
