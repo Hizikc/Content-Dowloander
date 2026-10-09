@@ -1,5 +1,4 @@
 import os
-import sys
 import main
 import config
 import video
