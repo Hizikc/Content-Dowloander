@@ -2,6 +2,8 @@ import os
 import sys
 import main
 import config
+import video
+import audio
 
 # Функция меню загрузки
 def dowloander():
@@ -15,9 +17,9 @@ def dowloander():
         dm = input(': ')
         
         if dm == '1':
-            dowloander.video()
+            video.video()
         elif dm == '2':
-            dowloander.audio()
+            audio.audio()
         elif dm == '0':
             os.system('cls')
             main.main()
