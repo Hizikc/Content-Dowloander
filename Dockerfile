@@ -1,17 +1,15 @@
-# 1. Берем официальный легкий образ Python
 FROM python:3.13-slim 
 
-# 2. Указываем рабочую папку внутри контейнера
+RUN apt-get update && apt-get install -y \
+    ffmpeg \
+    && rm -rf /var/lib/apt/lists/*
+
 WORKDIR /app
 
-# 3. Копируем файл зависимостей
 COPY requirements.txt .
 
-# 4. Устанавливаем библиотеки без сохранения кэша (чтобы образ весил меньше)
 RUN pip install --no-cache-dir -r requirements.txt
 
-# 5. Копируем всю нашу папку src внутрь папки /app/src
 COPY src/ ./src/
 
-# 6. Запускаем скрипт в интерактивном консольном режиме (-u отключает буферизацию принтов)
 CMD ["python", "-u", "src/main.py"]
