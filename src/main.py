@@ -12,7 +12,7 @@ def main():
         # Меню
         print(config.APP_NAME)
         print('1. Загрузка')
-        print('2. Настройка')
+        print('2. О программе')
         print('0. Выход')
         
         choise = input(': ')
