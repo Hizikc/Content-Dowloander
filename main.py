@@ -1,6 +1,6 @@
 import sys
 import os
-
+import dowloander
 # Переменная имени приложения
 APP_NAME = 'YouTube-Dowloander'
 
