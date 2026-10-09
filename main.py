@@ -2,6 +2,7 @@ import sys
 import os
 import dowloander
 import settings
+import config
 
 # Функция главного меню
 def main():
@@ -9,7 +10,7 @@ def main():
         # Очистка терминала перед выводом меню
         os.system('cls')
         # Меню
-        print(APP_NAME)
+        print(config.APP_NAME)
         print('1. Загрузка')
         print('2. Настройка')
         print('0. Выход')
