@@ -1,1 +1,1 @@
-APP_NAME = 'YouTube-Dowloander'
+APP_NAME = 'Content-Dowloander'
