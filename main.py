@@ -3,29 +3,6 @@ import os
 import dowloander
 import settings
 
-# Переменная имени приложения
-APP_NAME = 'YouTube-Dowloander'
-
-# Функция меню загрузки
-def dowloander():
-    while True:
-        os.system('cls')
-        print(APP_NAME)
-        print('1. Видео')
-        print('2. Аудио')
-        print('0. Выход')
-        
-        dm = input(': ')
-        
-        if dm == '1':
-            dowloander.video()
-        elif dm == '2':
-            dowloander.audio()
-        elif dm == '0':
-            os.system('cls')
-            main()
-            break
-
 # Функция главного меню
 def main():
     while True:
@@ -40,7 +17,7 @@ def main():
         choise = input(': ')
         
         if choise == '1':
-            dowloander()
+            dowloander.dowloander()
         elif choise == '2':
             settings.settings()
         elif choise == '0':
