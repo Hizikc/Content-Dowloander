@@ -14,13 +14,13 @@ def dowloander():
         print('2. Аудио')
         print('0. Выход')
         
-        dm = input(': ')
+        dr = input(': ')
         
-        if dm == '1':
+        if dr == '1':
             video.video()
-        elif dm == '2':
+        elif dr == '2':
             audio.audio()
-        elif dm == '0':
+        elif dr == '0':
             os.system('cls')
             main.main()
             break
