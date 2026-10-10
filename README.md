@@ -4,8 +4,10 @@
 ![images](assets/logo.ico)
 
 ## Установка:
-### Для установки систему скачайте и запустите файл `Content_Downloader_Installer_v1.0.0.exe` 
-### Для установки протативной версии программы скачайте и запустите файл `Content_Downloader_Portable_v1.0.0.exe`
+### Для установки систему скачайте и запустите файл
+#### `Content_Downloader_Installer_v1.0.0.exe` 
+### Для установки протативной версии программы скачайте и запустите файл
+#### `Content_Downloader_Portable_v1.0.0.exe`
 
 
 
