@@ -1,6 +1,6 @@
 [Setup]
 AppName=Content Downloader
-AppVersion=1.0.0
+AppVersion=1.1.0
 AppPublisher=hizikc
 DefaultDirName={autopf}\Content Downloader
 DefaultGroupName=Content Downloader
@@ -13,7 +13,7 @@ WizardStyle=modern
 SetupIconFile=assets\logo.ico
 
 [Files]
-Source: "docs\Content-Downloader.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "docs\Content_Downloader_Portable_v.1.1.0.exe"; DestDir: "{app}"; Flags: ignoreversion
 Source: "assets\logo.ico"; DestDir: "{app}"; Flags: ignoreversion
 
 [Icons]
