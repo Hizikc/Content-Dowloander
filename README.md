@@ -1,7 +1,7 @@
 # Content-Dowloander
 
 ## CLI-Script для загрузки контента
-
+[](assets/logo.ico)
 
 
 
@@ -19,3 +19,6 @@ pip install -r requirements.txt
 pyinstaller --onefile --paths="src" --distpath="docs" --icon="assets/logo.ico" --name="Content-Downloader" src/main.py
 ```
 ### После завершения команды exe файл появится в папке docs 
+
+## Создание установщика
+### Для того чтобы создать файл установки необходимо установить программу `
