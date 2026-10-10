@@ -1,7 +1,7 @@
 # Content-Dowloander
 
 ## CLI-Script для загрузки контента
-[images](assets/logo.ico)
+![images](assets/logo.ico)
 
 
 
