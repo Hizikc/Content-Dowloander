@@ -4,10 +4,12 @@ import config
 import video_standart
 import video_not_standart
 
-def audio():
+def video():
     while True:
         os.system('cls')
         print(config.APP_NAME)
+        print('Видео')
+        print('')
         print('1. Стандарт')
         print('2. С доп параметрами')
         print('0. Выход')
