@@ -24,7 +24,7 @@ def video_non_standart():
         if url == '0':
             break
 
-        print('\nмаксимальное качество видео:')
+        print('\nМаксимальное качество видео:')
         print('1 - 1080p (FullHD)')
         print('2 - 720p (HD)')
         print('3 - 480p')
@@ -40,7 +40,7 @@ def video_non_standart():
         else:
             fmt = 'bestvideo+bestaudio/best'
 
-        user_folder = input('\nназвание папки внутри "Видео" (Enter для дефолта): ')
+        user_folder = input('\nНазвание папки внутри "Видео" (Enter для дефолта): ')
         if user_folder == '':
             user_folder = 'Content_Dowloander'
             
