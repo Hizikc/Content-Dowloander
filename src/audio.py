@@ -8,7 +8,7 @@ def audio():
     while True:
         os.system('cls')
         print(config.APP_NAME)
-        print('Видео')
+        print('Аудио')
         print('')
         print('1. Стандарт')
         print('2. С доп параметрами')
