@@ -5,7 +5,7 @@ import video
 import audio
 
 # Функция меню загрузки
-def dowloander():
+def menu_downloander():
     while True:
         os.system('cls')
         print(config.APP_NAME)
