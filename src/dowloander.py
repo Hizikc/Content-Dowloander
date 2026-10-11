@@ -9,6 +9,7 @@ def dowloander():
     while True:
         os.system('cls')
         print(config.APP_NAME)
+        print(' ')
         print('1. Видео')
         print('2. Аудио')
         print('0. Выход')
