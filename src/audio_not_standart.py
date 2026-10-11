@@ -9,7 +9,7 @@ def show_finished_name(d):
     if d['status'] == 'finished':
         filename = os.path.basename(d['filename'])
         print(f'\n[УСПЕШНО СКАЧАНО]: {filename}')
-        input('\nНажми Enter, чтобы продолжить...')
+        input('\n Enter, чтобы продолжить...')
 
 def audio_not_standart():
     while True:
@@ -24,7 +24,7 @@ def audio_not_standart():
         if url == '0':
             break
 
-        print('\nВыбери битрейт звука (1 - 320kbps, 2 - 256kbps, 3 - 192kbps): ')
+        print('\nбитрейт звука (1 - 320kbps, 2 - 256kbps, 3 - 192kbps): ')
         bitrate_choice = input('Цифра: ')
         
         if bitrate_choice == '2':
@@ -34,9 +34,9 @@ def audio_not_standart():
         else:
             quality = '320'
 
-        user_folder = input('\nВведите название папки внутри "Музыки" (Enter для дефолта): ')
+        user_folder = input('\nназвание папки внутри "Музыки" (Enter для дефолта): ')
         if user_folder == '':
-            user_folder = 'My_Music_Custom'
+            user_folder = 'Content_Dowloand'
             
         target_path = os.path.join(music_path, user_folder)
 

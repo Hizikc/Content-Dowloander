@@ -7,7 +7,7 @@ def about():
         os.system('cls')
         print(config.APP_NAME)
         print('Developer: hizikc')
-        print('version: 1.0.0')
+        print('version: 1.2.0')
         print('0. Выход')
         
         ss = input(': ')
