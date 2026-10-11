@@ -11,7 +11,7 @@ def show_finished_name(d):
         print(f'\n[УСПЕШНО СКАЧАНО]: {filename}')
         input('\nEnter, чтобы продолжить...')
 
-def video_non_standart():
+def custom_video():
     while True:
         os.system('cls')
         print(config.APP_NAME)
