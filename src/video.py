@@ -1,8 +1,8 @@
 import os
 import main
 import config
-import video_standart
-import video_not_standart
+import src.video_standard as video_standard
+import src.custom_video as custom_video
 
 def video():
     while True:
@@ -17,9 +17,9 @@ def video():
         ao = input(': ')
         
         if ao == '1':
-            video_standart.video_standart()
+            video_standard.video_standard()
         elif ao == '2':
-            video_not_standart.video_not_standart()
+            custom_video.custom_video()
         elif ao == '0':
             os.system('cls')
             main.main()
