@@ -1,8 +1,8 @@
 import os
 import main
 import config
-import src.audio_standard as audio_standard
-import src.custom_audio as custom_audio
+import audio_standard as audio_standard
+import custom_audio as custom_audio
 
 def audio():
     while True:
