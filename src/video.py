@@ -1,8 +1,8 @@
 import os
 import main
 import config
-import src.video_standard as video_standard
-import src.custom_video as custom_video
+import video_standard as video_standard
+import custom_video as custom_video
 
 def video():
     while True:

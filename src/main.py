@@ -1,6 +1,6 @@
 import sys
 import os
-import dowloander
+import menu_downloander as menu_downloander
 import about
 import config
 
@@ -11,6 +11,7 @@ def main():
         os.system('cls')
         # Меню
         print(config.APP_NAME)
+        print('')
         print('1. Загрузка')
         print('2. О программе')
         print('0. Выход')
@@ -18,7 +19,7 @@ def main():
         choise = input(': ')
         
         if choise == '1':
-            dowloander.dowloander()
+            menu_downloander.dowloander()
         elif choise == '2':
             about.about()
         elif choise == '0':
