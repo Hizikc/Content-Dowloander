@@ -2,7 +2,7 @@ import os
 import main
 import config
 import src.audio_standard as audio_standard
-import audio_not_standart
+import src.custom_audio as custom_audio
 
 def audio():
     while True:
@@ -19,7 +19,7 @@ def audio():
         if ao == '1':
             audio_standard.audio_standard()
         elif ao == '2':
-            audio_not_standart.audio_not_standart()
+            custom_audio.custom_audio()
         elif ao == '0':
             os.system('cls')
             main.main()
