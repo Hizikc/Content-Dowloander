@@ -1,7 +1,7 @@
 import os
 import main
 import config
-import audio_standart
+import src.audio_standard as audio_standard
 import audio_not_standart
 
 def audio():
@@ -9,7 +9,7 @@ def audio():
         os.system('cls')
         print(config.APP_NAME)
         print('Аудио')
-        print(' ')
+        print()
         print('1. Стандарт')
         print('2. С доп параметрами')
         print('0. Выход')
@@ -17,7 +17,7 @@ def audio():
         ao = input(': ')
         
         if ao == '1':
-            audio_standart.audio_standart()
+            audio_standard.audio_standard()
         elif ao == '2':
             audio_not_standart.audio_not_standart()
         elif ao == '0':
