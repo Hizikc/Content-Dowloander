@@ -48,6 +48,7 @@ def audio_standart():
         os.system('cls')
         print(config.APP_NAME)
         print('Введите 0 для выхода')
+        print(' ')
         url = input('Введите ссылку для скачивания: ')
         
         if url == '':
