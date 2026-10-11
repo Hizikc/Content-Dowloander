@@ -9,7 +9,7 @@ def audio():
         os.system('cls')
         print(config.APP_NAME)
         print('Аудио')
-        print('')
+        print(' ')
         print('1. Стандарт')
         print('2. С доп параметрами')
         print('0. Выход')
