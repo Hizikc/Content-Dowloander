@@ -13,7 +13,7 @@ def show_finished_name(d):
     if d['status'] == 'finished':
         filename = os.path.basename(d['filename'])
         print(f'\n[УСПЕШНО СКАЧАНО]: {filename}')
-        input('\nНажми Enter, чтобы продолжить...')
+        input('\nEnter, чтобы продолжить...')
 
 options_video_std = {
     'format': 'bestvideo+bestaudio/best',
