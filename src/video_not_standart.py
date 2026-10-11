@@ -9,7 +9,7 @@ def show_finished_name(d):
     if d['status'] == 'finished':
         filename = os.path.basename(d['filename'])
         print(f'\n[УСПЕШНО СКАЧАНО]: {filename}')
-        input('\nНажми Enter, чтобы продолжить...')
+        input('\nEnter, чтобы продолжить...')
 
 def video_non_standart():
     while True:
@@ -24,12 +24,12 @@ def video_non_standart():
         if url == '0':
             break
 
-        print('\nВыбери максимальное качество видео:')
+        print('\nмаксимальное качество видео:')
         print('1 - 1080p (FullHD)')
         print('2 - 720p (HD)')
         print('3 - 480p')
         print('4 - Максимально возможное (4K и выше)')
-        res_choice = input('Цифра: ')
+        res_choice = input(': ')
         
         if res_choice == '1':
             fmt = 'bestvideo[height<=1080]+bestaudio/best'
@@ -40,9 +40,9 @@ def video_non_standart():
         else:
             fmt = 'bestvideo+bestaudio/best'
 
-        user_folder = input('\nВведите название папки внутри "Видео" (Enter для дефолта): ')
+        user_folder = input('\nназвание папки внутри "Видео" (Enter для дефолта): ')
         if user_folder == '':
-            user_folder = 'My_Videos_Custom'
+            user_folder = 'Content_Dowloander'
             
         target_path = os.path.join(video_path, user_folder)
 
