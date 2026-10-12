@@ -5,6 +5,7 @@ import config
 def about():
     while True:
         os.system('cls')
+        print()
         print(config.APP_NAME)
         print('Developer: hizikc')
         print('version: 1.2.0')
