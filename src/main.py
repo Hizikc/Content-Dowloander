@@ -11,7 +11,7 @@ def main():
         os.system('cls')
         # Меню
         print(config.APP_NAME)
-        print('')
+        print()
         print('1. Загрузка')
         print('2. О программе')
         print('0. Выход')
