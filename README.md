@@ -23,7 +23,7 @@ pip install -r requirements.txt
 ```
 ### После чего выполнить команду:
 ```powershell
-pyinstaller --onefile --paths="src" --distpath="docs" --icon="assets/logo.ico" --name="Content-Downloader" src/main.py
+pyinstaller --onefile --paths="src" --distpath="docs" --icon="assets/logo.ico" --name="Content_Downloader" src/main.py
 ```
 ### После завершения команды exe файл появится в папке docs 
 
