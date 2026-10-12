@@ -19,7 +19,7 @@ def main():
         choise = input(': ')
         
         if choise == '1':
-            menu_downloander.dowloander()
+            menu_downloander.menu_downloander()
         elif choise == '2':
             about.about()
         elif choise == '0':
