@@ -1,19 +1,18 @@
-import os 
-import main
+import os
 import config
 
 def about():
     while True:
         os.system('cls')
-        print()
         print(config.APP_NAME)
+        print()
         print('Developer: hizikc')
-        print('version: 1.2.0')
+        print('-----------------')
+        print('version: In development')
+        print()
         print('0. Выход')
         
-        ss = input(': ')
+        about = input(': ')
         
-        if ss == '0':
-            os.system('cls')
-            main.main()
-        break
+        if about == '0':
+            return
