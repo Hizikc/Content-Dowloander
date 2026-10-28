@@ -1,5 +1,7 @@
 # Content-Dowloander
+# В процессе переработки механики программы
 
+---
 ## CLI-Script для загрузки контента
 ![images](assets/logo.ico)
 
