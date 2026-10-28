@@ -1,6 +1,5 @@
-# Content-Dowloander
+# Content-Dowloander Не работает
 # В процессе переработки механики программы
-
 ---
 ## CLI-Script для загрузки контента
 ![images](assets/logo.ico)
